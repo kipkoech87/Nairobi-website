@@ -1,0 +1,241 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    font-family: 'Inter Tight', sans-serif;
+    margin: 0;
+    text-align: center;
+    background-color: #457B9D;
+}
+#hero-section{
+    background-image: url("images/kanairo.jpg");
+    display: flex;
+    flex-direction: column;
+    height: 345px;
+    background-size: cover;
+    background-position: center;
+    color: white; 
+}
+#hero-section:hover{
+    background-image:url("images/nai.jpg") ;
+
+}
+#title-city{
+    background-color:#457B9D;
+    width: 201px;
+    height: 34px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    padding: 8px 10px;
+    border: 0px solid;
+    border-radius: 10px;
+    margin-top: 125px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#title-city:hover{
+    background-color: mediumvioletred;
+}
+#subtitle-city{
+    background-color: #2a0d79;
+    width: 412px;
+    height: 52px;
+    left: calc(50% - 412px/2);
+    top: calc(50% - 52px/2 + 26.5px);
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.72px;
+    line-height: 22px;
+    padding: 10px 2px;
+    border: 0px solid;
+    border-radius: 8px;
+    border-bottom: 3px solid #2a0d79;
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 122px;
+}
+
+#activities{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:#F1FAEE;
+    height: 378px;
+
+}
+#heading-activities{
+    display: flex;
+    justify-content: center;
+    background-color:#F1FAEE;
+}
+#heading1{
+    width: 439px;
+    height: 20px;
+    background-color:#F1FAEE;
+    margin-top: 39px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #1D3557;
+}
+#museum-img{
+    border-radius: 50%;
+    height: 130px;
+    width: 199.99px;
+    margin-top: 12px;
+}
+#museum-h{
+   width: 200px;
+   height: 25px;
+   font-family: 'Arial';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 18px;
+   text-align: center;
+    
+}
+#museum-p{
+    width: 198px;
+   height: 55px;
+   font-family: 'Arial';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 18px;
+   text-align: center;
+   margin-left: 30px;
+}
+
+#giraff-img{
+    border-radius: 50%;
+    height: 130px;
+    width: 199.99px;
+    margin-top: 12px;
+    
+}
+#heading5{
+    width: 162px;
+    height: 20px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    
+}
+#giraff-p{
+    width: 198px;
+    height: 54px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+}
+#choma-img{
+    border-radius: 50%;
+    height: 130px;
+    width: 199.99px;
+    margin-top: 12px;
+    
+}
+#heading6{
+    width: 198px;
+    height: 12px;
+    margin-right: 35px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+}
+#choma-p{
+    width: 210px;
+    height: 60px;
+    padding-bottom: 38px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+}
+#guide-sec{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 294px;
+    background-color: #A8DADC;
+    border-radius: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+}
+
+#image-guide{
+    height: 248px;
+    width: 173px;
+    border: 0px solid;
+    border-radius: 12px;
+    padding-top: 23px;
+    padding-left: 15px;
+    padding-right: 7px;
+    padding-bottom:22px;
+
+}
+
+#heading3{
+    font-style: oblique;
+    font-size: 24px;
+    font-weight: 700px;
+    padding-top: 49px;
+    padding-right: 4px;
+
+}
+#paragraph1{
+    padding-top: 13px;
+    padding-right: 11px;
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+#heading4{
+    padding-top: 26px;
+    padding-right: 12px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+
+}
+img {
+    width: 100px;
+}
